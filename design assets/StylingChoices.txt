@@ -1,0 +1,15 @@
+Font Choices:
+
+I’ve narrowed my choice down to 3 and may use all of them in some sort of way:
+-Helvetica
+-Arial
+-Cambria
+
+Color Choices:
+-Black
+-White
+-Gray
+-Light Blue
+
+Styling/Navigation:
+Very simple, with one page and a short menu on the side with slide out information.
