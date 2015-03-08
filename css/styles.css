@@ -7,20 +7,21 @@ html {
 }
 body {
   font-family: Helvetica, serif;
+  background: rgba(0,0,0,0);
   width: 100%;
   height: 100%;
 }
 
-.contact-left {
-  float: left;
-  margin-left: 25%;
-  margin-bottom: 15%;
+.navbar-inverse {
+  background-color: #A9A9A9;
 }
 
-.contact-right {
-  float: right;
-  margin-right: 15%;
-  margin-bottom: 15%;
+.body-container {
+  margin-top: 5% !important;
+}
+
+#form-main {
+  margin-bottom: 10%;
 }
 
 /* iPhone */
@@ -82,7 +83,6 @@ body {
 
    #form-main{
     width:100%;
-    float:left;
     padding-top:0px;
   }
 
@@ -101,12 +101,12 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
     line-height: 22px;
-    background-color: #fbfbfb;
+    background-color: #696969;
     padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
@@ -115,6 +115,20 @@ body {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     border: 3px solid rgba(0,0,0,0);
+  }
+
+  .contact-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #3498db;
+    color: #3498db;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
+
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
   }
 
   textarea {
@@ -137,6 +151,31 @@ body {
     padding-bottom:12px;
     margin-top:-4px;
     font-weight:700;
+  }
+
+  #button-red:hover{
+    background-color: rgba(0,0,0,0);
+    color: #0493bd;
+  }
+
+  .submit:hover {
+    color: #3498db;
+  }
+
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .submit:hover .ease{
+    width:100%;
+    background-color:white;
   }
 }
 
@@ -218,12 +257,12 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
     line-height: 22px;
-    background-color: #fbfbfb;
+    background-color: #696969;
     padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
@@ -234,11 +273,30 @@ body {
     border: 3px solid rgba(0,0,0,0);
   }
 
+  .contact-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #3498db;
+    color: #3498db;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
+
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
+  }
+
   textarea {
       width: 100%;
       height: 100px;
       line-height: 150%;
       resize:vertical;
+  }
+
+  input:hover, textarea:hover,
+  input:focus, textarea:focus {
+    background-color:white;
   }
 
   #button-red{
@@ -254,6 +312,31 @@ body {
     padding-bottom:12px;
     margin-top:-4px;
     font-weight:700;
+  }
+
+  #button-red:hover{
+    background-color: rgba(0,0,0,0);
+    color: #0493bd;
+  }
+
+  .submit:hover {
+    color: #3498db;
+  }
+
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .submit:hover .ease{
+    width:100%;
+    background-color:white;
   }
 }
 
@@ -342,12 +425,12 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
     line-height: 22px;
-    background-color: #fbfbfb;
+    background-color: #696969;
     padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
@@ -358,11 +441,30 @@ body {
     border: 3px solid rgba(0,0,0,0);
   }
 
+  .contact-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #3498db;
+    color: #3498db;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
+
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
+  }
+
   textarea {
       width: 100%;
       height: 100px;
       line-height: 150%;
       resize:vertical;
+  }
+
+  input:hover, textarea:hover,
+  input:focus, textarea:focus {
+    background-color:white;
   }
 
   #button-red{
@@ -378,6 +480,31 @@ body {
     padding-bottom:12px;
     margin-top:-4px;
     font-weight:700;
+  }
+
+  #button-red:hover{
+    background-color: rgba(0,0,0,0);
+    color: #0493bd;
+  }
+
+  .submit:hover {
+    color: #3498db;
+  }
+
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .submit:hover .ease{
+    width:100%;
+    background-color:white;
   }
 }
 
@@ -457,12 +584,12 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
     line-height: 22px;
-    background-color: #fbfbfb;
+    background-color: #696969;
     padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
@@ -471,6 +598,20 @@ body {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     border: 3px solid rgba(0,0,0,0);
+  }
+
+  .contact-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #3498db;
+    color: #3498db;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
+
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
   }
 
   textarea {
@@ -493,6 +634,31 @@ body {
     padding-bottom:12px;
     margin-top:-4px;
     font-weight:700;
+  }
+
+  #button-red:hover{
+    background-color: rgba(0,0,0,0);
+    color: #0493bd;
+  }
+
+  .submit:hover {
+    color: #3498db;
+  }
+
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .submit:hover .ease{
+    width:100%;
+    background-color:white;
   }
 }
 
@@ -572,12 +738,12 @@ body {
   }
 
   .contact-input {
-    color:#3c3c3c;
+    color:#000000;
     font-family: Helvetica, Arial, sans-serif;
     font-weight:500;
     font-size: 18px;
     line-height: 22px;
-    background-color: #fbfbfb;
+    background-color: #696969;
     padding: 13px 13px 13px 13px;
     margin-bottom: 10px;
     width:100%;
@@ -586,6 +752,20 @@ body {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     border: 3px solid rgba(0,0,0,0);
+  }
+
+  .contact-input:focus{
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #3498db;
+    color: #3498db;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+  }
+
+  .focused{
+    color:#30aed6;
+    border:#30aed6 solid 3px;
   }
 
   textarea {
@@ -608,5 +788,30 @@ body {
     padding-bottom:22px;
     margin-top:-4px;
     font-weight:700;
+  }
+
+  #button-red:hover{
+    background-color: rgba(0,0,0,0);
+    color: #0493bd;
+  }
+
+  .submit:hover {
+    color: #3498db;
+  }
+
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+  }
+
+  .submit:hover .ease{
+    width:100%;
+    background-color:white;
   }
 }
