@@ -1,5 +1,4 @@
 html {
-
   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
   url(../img/grey-background.png) no-repeat center center fixed;
   background-size: 100% auto;
@@ -175,6 +174,9 @@ body {
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
     margin-top:-4px;
     font-weight:700;
   }
@@ -336,6 +338,9 @@ body {
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
     margin-top:-4px;
     font-weight:700;
   }
@@ -504,6 +509,9 @@ body {
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
     margin-top:-4px;
     font-weight:700;
   }
@@ -663,6 +671,9 @@ body {
     font-size:14px;
     padding-top:12px;
     padding-bottom:12px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
     margin-top:-4px;
     font-weight:700;
   }
@@ -822,6 +833,9 @@ body {
     font-size:24px;
     padding-top:22px;
     padding-bottom:22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
     margin-top:-4px;
     font-weight:700;
   }
